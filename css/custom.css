@@ -1,0 +1,137 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-cst {
+    width: 148px;
+    height: 40px;
+}
+
+#header .navbar-collapse{
+    padding-left: 50px;
+    width: auto;
+}
+
+#header .nav-link {
+    padding: 8px 16px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: 2px solid var(--primary);
+}
+
+.bgmain {
+    background-color: #222;
+}
+
+.jumbotext {
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 96px;
+    padding-top: 170px;
+    margin-bottom: 0;
+}
+
+.jumbotext-sec {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 96px;
+    color: #fff;
+}
+
+.jumbotext-third {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.img-bonus {
+    margin-top: 350px;
+    width: 100%;
+}
+
+.img-rocket {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.ytFrame {
+    margin: 80px 20px 0px 0px;
+}
+
+.video-caption {
+    margin-top: 120px;
+}
+
+.DeFi-caption {
+    margin-top: 120px;
+}
+
+.DeFi-caption p {
+    margin-top: 30px;
+}
+
+.crosschain {
+    background-color: var(--primary);
+    color: #222;
+}
+
+.caption h3 {
+    font-size: 56px;
+    font-weight: 300;
+    padding-top: 80px;
+}
+
+.btn-cross{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid #222;
+    font-weight: 600;
+}
+
+.btn-contract {
+    margin-bottom: 40px;
+}
+
+.card img {
+    filter: grayscale(1);
+}
+
+.card i {
+    color: #222;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.gadget img {
+    margin-top: 50px;
+}
+
+.footer {
+    margin: 80px 0px 80px 0px;
+}
+
+.copyright {
+    background-color: rgb(238, 234, 234);
+    padding: 30px;
+    font-size: 15px;
+}
+
+.social a {
+    color: #222;
+}
+
+.social a:hover {
+    color: #000;
+}
+
+#social-logos i{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
