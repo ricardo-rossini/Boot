@@ -84,11 +84,14 @@
     padding-top: 80px;
 }
 
-.btn-cross{
+.btn-crosschain {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 60px;    
+    text-align: center;
+}
+
+.btn-cross{
     text-align: center;
     border: 1px solid #222;
     font-weight: 600;
