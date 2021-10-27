@@ -138,3 +138,28 @@
     font-size: 30px;
     padding-right: 20px;
 }
+
+@media (max-width: 720px) {
+    .jumbotext {
+        font-size: 76px;
+    }
+
+    .jumbotext-sec{
+        font-size: 76px;
+    }
+
+    .img-bonus {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .img-rocket {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    iframe {
+        width: 450px;
+        height: 250px;
+    }
+}
