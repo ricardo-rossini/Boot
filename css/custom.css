@@ -160,6 +160,16 @@
     .button-lite {
         margin-left: 5px;
     }
+
+    .imgs {
+        margin-top: 0px;
+    }
+
+    .img-bonus {
+        margin-top: 10px;
+        padding-top: 10px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
