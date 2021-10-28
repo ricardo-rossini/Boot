@@ -29,7 +29,7 @@
 .jumbotext {
     color: var(--primary);
     font-weight: 800;
-    font-size: 96px;
+    font-size: 4.8rem;
     padding-top: 170px;
     margin-bottom: 0;
 }
@@ -37,28 +37,25 @@
 .jumbotext-sec {
     margin-top: 0;
     font-weight: 300;
-    font-size: 96px;
+    font-size: 3rem;
     color: #fff;
 }
 
 .jumbotext-third {
+    font-size:1.25rem;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 70px;
 }
 
 .img-bonus {
-    margin-top: 350px;
+    margin-top: 25rem;
     width: 100%;
 }
 
 .img-rocket {
-    margin-top: 200px;
+    margin-top: 20rem;
     width: 100%;
-}
-
-.button-lite {
-    margin-left: 100px;
 }
 
 .ytFrame {
@@ -66,15 +63,24 @@
 }
 
 .video-caption {
-    margin-top: 120px;
+    margin-top: 15rem;
 }
 
 .DeFi-caption {
-    margin-top: 120px;
+    margin-top: 5rem;
 }
 
 .DeFi-caption p {
-    margin-top: 30px;
+    margin-top: 5rem;
+}
+
+.Defi-img {
+    width: 25rem;
+    height: 25rem;
+    margin-top: 8rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0px;
 }
 
 .crosschain {
@@ -83,15 +89,15 @@
 }
 
 .caption h3 {
-    font-size: 56px;
+    font-size: 5rem;
     font-weight: 300;
-    padding-top: 80px;
+    padding-top: 5rem;
 }
 
 .btn-crosschain {
     position: relative;
-    margin-top: 50px;
-    margin-bottom: 60px;    
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;    
     text-align: center;
 }
 
@@ -102,7 +108,7 @@
 }
 
 .btn-contract {
-    margin-bottom: 40px;
+    margin-bottom: 5em;
 }
 
 
@@ -113,7 +119,7 @@
 .card i {
     color: #222;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .gadget img {
@@ -127,7 +133,7 @@
 .copyright {
     background-color: rgb(238, 234, 234);
     padding: 30px;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .social a {
@@ -139,83 +145,30 @@
 }
 
 #social-logos i{
-    font-size: 30px;
+    font-size: 2rem;
     padding-right: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 675px) {
     .jumbotext {
-        font-size: 16px;
-        font-weight: 100;
+        font-size: 2.8rem;
     }
 
-    .jumbotext-sec{
-        font-size: 36px;
+    .jumbotext-sec {
+        font-size: 2rem;
     }
 
-    .button-join {
-        margin-left: 0px;
+    .jumbotext-third {
+        font-size: 1.5rem;
     }
 
-    .button-lite {
-        margin-left: 5px;
+    .caption h3 {
+        font-size: 3rem;
+        font-weight: 300;
+        padding-top: 5rem;
     }
 
-    .imgs {
-        margin-top: 0px;
-    }
-
-    .img-bonus {
-        margin-top: 10px;
-        padding-top: 10px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .jumbotext {
-        font-size: 76px;
-    }
-
-    .jumbotext-sec{
-        font-size: 76px;
-    }
-
-    .img-bonus {
-        margin-top: 350px;
-        width: 100%;
-    }
-
-    .img-rocket {
-        margin-top: 200px;
-        width: 100%;
-    }
-
-    iframe {
-        margin-top: 50px;
-        padding-left: 20px;
-        width: 450px;
-        height: 250px;
-    }
-
-    .video-caption{
-        padding-top: 50px;
-    }
-
-    .Defi-img {
-        width: 350px;
-        height: 350px;
-        margin-top: 100px;
-        padding-left: 0;
-        padding-top: 50px;
-        padding-bottom: 0px;
-    }
-
-    .gadget img {
-        width: 100%;
-    }
-
-    .footer {
-        padding-left: 40px;
-    }
+    .copyright {
+        font-size: 0.6rem;
+    }    
 }
