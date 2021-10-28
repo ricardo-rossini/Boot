@@ -56,14 +56,16 @@
                     <h1 class="jumbotext">CrowdSale</h1>
                     <h2 class="jumbotext-sec">is now live!</h2>
                     <h5 class="jumbotext-third">The Financial Freedom Revolution</h5>
-                    <a href="#" class="btn button-primary button button-join">Join Now</a>
-                    <a href="#" class="btn btn-outline-secondary button button-lite">Litepaper</a>
+                    <div class="button-case d-flex">
+                        <a href="#" class="btn button-primary button button-join">Join Now</a>
+                        <a href="#" class="btn btn-outline-secondary button button-lite">Litepaper</a>
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <img src="assets/camada-1@2x.png" class="img-fluid img-bonus" alt="">
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/rocket@1x.png" class="img-fluid img-rocket" alt="">
+                    <img src="assets/rocket@1x.png" class="img-fluid img-rocket box" id="rocket" alt="">
                 </div>
                 <h5 class="jumbotext-third">Contract <strong>Audited</strong> by <strong><i class="bi-lightning-charge"></i>Rock'n'Block</strong></h5>
             </div>
@@ -74,7 +76,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="ytFrame">
+                    <div class="ytFrame d-flex">
                         <iframe 
                             width="560" 
                             height="315" 
@@ -292,5 +294,15 @@
     </div>
     
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/move.min.js"></script>
+    <script>
+        document.getElementById('#rocket').onload = function(e) {
+        move('rocket')
+        .add('margin-botton', 200)
+        .duration('2s')
+        .end();
+        };
+    </script>
+    
   </body>
 </html>
