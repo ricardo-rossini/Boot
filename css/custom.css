@@ -127,10 +127,8 @@
     margin-top: 50px;
 }
 
-.footer{
-    margin-left: 10rem;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+.footer {
+    margin: 80px 0px 80px 0px;
 }
 
 .copyright {
@@ -148,13 +146,13 @@
 }
 
 #social-logos i{
-    font-size: 2rem;
-    padding-right: 20px;
+    font-size: 1.5rem;
+    padding-right: 1rem;
 }
 
 @media screen and (max-width: 992px) {
     .footer {
-        margin-left: 5rem;
+        margin-left: 0rem;
     }
 }
 
@@ -198,5 +196,11 @@
     .Defi-img {
         width: 20rem;
         height: 20rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #social-logos {
+        margin-left: 1.5rem;
     }
 }
